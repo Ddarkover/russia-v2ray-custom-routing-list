@@ -5,7 +5,7 @@
       "geosite:category-ads-all"
     ],
     "enabled": true,
-    "remarks": "\u0411\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u043A\u0430 \u0440\u0435\u043A\u043B\u0430\u043C\u044B"
+    "remarks": "Ad blocking"
   },
   {
     "outboundTag": "direct",
@@ -13,7 +13,7 @@
       "bittorrent"
     ],
     "enabled": false,
-    "remarks": "\u0422\u043E\u0440\u0440\u0435\u043D\u0442 \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+    "remarks": "Torrent direct"
   },
   {
     "outboundTag": "direct",
@@ -21,7 +21,7 @@
       "geosite:private"
     ],
     "enabled": true,
-    "remarks": "\u041B\u043E\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u0434\u043E\u043C\u0435\u043D\u044B \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+    "remarks": "Local domains direct"
   },
   {
     "port": "",
@@ -30,7 +30,7 @@
       "geosite:category-ru"
     ],
     "enabled": true,
-    "remarks": "\u0420\u0443\u0441\u0441\u043A\u0438\u0435 \u0434\u043E\u043C\u0435\u043D\u044B \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+    "remarks": "Russian domains direct"
   },
   {
     "port": "",
@@ -39,7 +39,7 @@
       "geoip:private"
     ],
     "enabled": true,
-    "remarks": "\u041B\u043E\u043A\u0430\u043B\u044C\u043D\u044B\u0435 IP \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+    "remarks": "Local IPs direct"
   },
   {
     "port": "",
@@ -48,12 +48,12 @@
       "geoip:ru"
     ],
     "enabled": true,
-    "remarks": "\u0420\u043E\u0441\u0441\u0438\u0439\u0441\u043A\u0438\u0435 IP \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+    "remarks": "Russian IPs direct"
   },
   {
     "port": "0-65535",
     "outboundTag": "proxy",
     "enabled": true,
-    "remarks": "\u0412\u0435\u0441\u044C \u043E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0439 \u0442\u0440\u0430\u0444\u0438\u043A \u0447\u0435\u0440\u0435\u0437 \u043F\u0440\u043E\u043A\u0441\u0438"
+    "remarks": "All other traffic via proxy"
   }
 ]
