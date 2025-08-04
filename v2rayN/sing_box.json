@@ -2,6 +2,6 @@
   "useSystemHosts": false,
   "normalDNS": "https://cdn.jsdelivr.net/gh/Ddarkover/russia-v2ray-custom-routing-list@main/v2rayN/dns_singbox_normal",
   "tunDNS": "https://cdn.jsdelivr.net/gh/Ddarkover/russia-v2ray-custom-routing-list@main/v2rayN/tun_singbox_dns",
-  "domainStrategy4Freedom": null,
+  "domainStrategy4Freedom": "prefer_ipv4",
   "domainDNSAddress": "77.88.8.8"
 }
