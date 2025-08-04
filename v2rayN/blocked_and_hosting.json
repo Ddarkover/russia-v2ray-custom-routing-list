@@ -54,19 +54,19 @@
   },
   {
     "outboundTag": "proxy",
-    "domain": [
-      "geosite:network-solutions",
-      "geosite:wpengine",
-      "geosite:hostgator",
-      "geosite:ionos",
-      "geosite:dreamhost",
-      "geosite:aws",
-      "geosite:godaddy",
-      "geosite:bluehost",
-      "geosite:kamatera",
-      "geosite:ovh",
-      "geosite:hetzner",
-      "geosite:digitalocean"
+    "ip": [
+      "geoip:network-solutions",
+      "geoip:wpengine",
+      "geoip:hostgator",
+      "geoip:ionos",
+      "geoip:dreamhost",
+      "geoip:aws",
+      "geoip:godaddy",
+      "geoip:bluehost",
+      "geoip:kamatera",
+      "geoip:ovh",
+      "geoip:hetzner",
+      "geoip:digitalocean"
     ],
     "enabled": true,
     "remarks": "Cloud providers via proxy"
