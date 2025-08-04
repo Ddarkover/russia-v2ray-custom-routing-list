@@ -3,17 +3,22 @@
   "routingItems": [
     {
       "remarks": "Everything",
-      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/all.json"
+      "url": "https://raw.githubusercontent.com/Ddarkover/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/all.json"
     },
     {
       "remarks": "Everything except Russia",
       "domainStrategy": "IPOnDemand",
-      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/all_except_ru.json"
+      "url": "https://raw.githubusercontent.com/Ddarkover/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/all_except_ru.json"
     },
     {
       "remarks": "Blocked only",
       "domainStrategy": "IPOnDemand",
-      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/only_blocked.json"
+      "url": "https://raw.githubusercontent.com/Ddarkover/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/only_blocked.json"
+    },
+    {
+      "remarks": "Blocked and hosting",
+      "domainStrategy": "IPOnDemand",
+      "url": "https://raw.githubusercontent.com/Ddarkover/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/blocked_and_hosting.json"
     }
   ]
 }
