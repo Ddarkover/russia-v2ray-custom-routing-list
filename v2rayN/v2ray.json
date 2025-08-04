@@ -2,6 +2,6 @@
   "useSystemHosts": false,
   "normalDNS": "https://cdn.jsdelivr.net/gh/Ddarkover/russia-v2ray-custom-routing-list@main/v2rayN/dns_v2ray_normal",
   "tunDNS": null,
-  "domainStrategy4Freedom": null,
+  "domainStrategy4Freedom": "UseIP",
   "domainDNSAddress": "77.88.8.8"
 }
