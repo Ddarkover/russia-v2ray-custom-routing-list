@@ -1,1 +1,97 @@
-1
+[
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": false,
+    "remarks": "Torrent direct"
+  },
+  {
+    "port": "",
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true,
+    "remarks": "Ad blocking"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "enabled": true,
+    "remarks": "Private networks direct"
+  },
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true,
+    "remarks": "Private domains direct"
+  },
+  {
+    "outboundTag": "proxy",
+    "ip": [
+      "1.0.0.1",
+      "1.1.1.1",
+      "8.8.8.8",
+      "8.8.4.4"
+    ],
+    "enabled": true,
+    "remarks": "DNS via proxy"
+  },
+  {
+    "port": "50000-65535",
+    "network": "udp",
+    "outboundTag": "proxy",
+    "enabled": false,
+    "remarks": "Discord (voice) via proxy"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:network-solutions",
+      "geosite:wpengine",
+      "geosite:hostgator",
+      "geosite:ionos",
+      "geosite:dreamhost",
+      "geosite:aws",
+      "geosite:godaddy",
+      "geosite:bluehost",
+      "geosite:kamatera",
+      "geosite:ovh",
+      "geosite:hetzner",
+      "geosite:digitalocean"
+    ],
+    "enabled": true,
+    "remarks": "Cloud providers via proxy"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [
+      "geoip:ru-blocked"
+    ],
+    "enabled": true,
+    "remarks": "Blocked networks via proxy"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:ru-blocked"
+    ],
+    "enabled": true,
+    "remarks": "Blocked domains via proxy"
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "enabled": true,
+    "remarks": "Other traffic direct"
+  }
+]
