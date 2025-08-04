@@ -1,4 +1,6 @@
 {
+  "queryStrategy": "UseIPv4",
+  "disableCache": false,
   "hosts": {
     "dns.google": "8.8.8.8",
     "dns.cloudflare.com": "1.1.1.1"
