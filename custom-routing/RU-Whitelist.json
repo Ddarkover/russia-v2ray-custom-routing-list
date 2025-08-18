@@ -6,14 +6,14 @@
       "geosite:category-ads-all"
     ],
     "enabled": true,
-    "remarks": "Блокировка рекламы"
+    "remarks": "Ad blocking"
   },
   {
     "port": "443",
     "network": "udp",
     "outboundTag": "block",
     "enabled": true,
-    "remarks": "Блокировка UDP 443 (QUIC)"
+    "remarks": "Block UDP 443 (QUIC)"
   },
   {
     "outboundTag": "direct",
@@ -21,7 +21,7 @@
       "geoip:private"
     ],
     "enabled": true,
-    "remarks": "Обход локальной сети (IP)"
+    "remarks": "Bypass local network (IP)"
   },
   {
     "outboundTag": "direct",
@@ -29,7 +29,7 @@
       "geosite:private"
     ],
     "enabled": true,
-    "remarks": "Обход локальной сети (домены)"
+    "remarks": "Bypass local network (domains)"
   },
   {
     "outboundTag": "direct",
@@ -51,7 +51,7 @@
       "212.109.195.93"
     ],
     "enabled": true,
-    "remarks": "Обход российских DNS серверов"
+    "remarks": "Bypass Russian DNS servers"
   },
   {
     "outboundTag": "direct",
@@ -60,7 +60,7 @@
       "domain:dns.comss.one"
     ],
     "enabled": true,
-    "remarks": "Обход российских DNS доменов"
+    "remarks": "Bypass Russian DNS domains"
   },
   {
     "outboundTag": "direct",
@@ -68,7 +68,7 @@
       "geoip:ru"
     ],
     "enabled": true,
-    "remarks": "Обход российских IP"
+    "remarks": "Bypass Russian IPs"
   },
   {
     "outboundTag": "direct",
@@ -76,11 +76,11 @@
       "geosite:category-ru"
     ],
     "enabled": true,
-    "remarks": "Обход российских доменов"
+    "remarks": "Bypass Russian domains"
   },
   {
     "outboundTag": "proxy",
     "enabled": true,
-    "remarks": "Проксирование всего остального трафика"
+    "remarks": "Proxy all other traffic"
   }
 ]
