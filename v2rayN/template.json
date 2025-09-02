@@ -1,0 +1,43 @@
+{
+  "version": "RUv2",
+  "routingItems": [
+    {
+      "remarks": "Everything",
+      "url": "https://raw.githubusercontent.com/Ddarkover/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/all.json"
+    },
+    {
+      "remarks": "Everything except Russia",
+      "domainStrategy": "IPOnDemand",
+      "url": "https://raw.githubusercontent.com/Ddarkover/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/all_except_ru.json"
+    },
+    {
+      "remarks": "Blocked only",
+      "domainStrategy": "IPOnDemand",
+      "url": "https://raw.githubusercontent.com/Ddarkover/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/only_blocked.json"
+    },
+    {
+      "remarks": "Blocked and hosting",
+      "domainStrategy": "IPOnDemand",
+      "url": "https://raw.githubusercontent.com/Ddarkover/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/blocked_and_hosting.json"
+    },
+    {
+      "remarks": "Everything v2",
+      "url": "https://raw.githubusercontent.com/Ddarkover/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/all_v2.json"
+    },
+    {
+      "remarks": "Everything except Russia v2",
+      "domainStrategy": "IPOnDemand",
+      "url": "https://raw.githubusercontent.com/Ddarkover/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/all_except_ru_v2.json"
+    },
+    {
+      "remarks": "Blocked only v2",
+      "domainStrategy": "IPOnDemand",
+      "url": "https://raw.githubusercontent.com/Ddarkover/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/only_blocked_v2.json"
+    },
+    {
+      "remarks": "Blocked and hosting v2",
+      "domainStrategy": "IPOnDemand",
+      "url": "https://raw.githubusercontent.com/Ddarkover/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/blocked_and_hosting_v2.json"
+    }
+  ]
+}

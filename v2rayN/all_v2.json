@@ -1,0 +1,32 @@
+[ 
+  { 
+    "outboundTag": "block", 
+    "domain": [ 
+      "geosite:category-ads-all" 
+    ], 
+    "enabled": true, 
+    "remarks": "Ad blocking" 
+  }, 
+  { 
+    "outboundTag": "direct", 
+    "ip": [ 
+      "geoip:private" 
+    ], 
+    "enabled": true, 
+    "remarks": "Bypass Local Network IP" 
+  }, 
+  { 
+    "outboundTag": "direct", 
+    "domain": [ 
+      "geosite:private" 
+    ], 
+    "enabled": true, 
+    "remarks": "Bypass Local Network Domain" 
+  }, 
+  { 
+    "port": "0-65535", 
+    "outboundTag": "proxy", 
+    "enabled": true, 
+    "remarks": "Final Proxy Rule" 
+  } 
+]

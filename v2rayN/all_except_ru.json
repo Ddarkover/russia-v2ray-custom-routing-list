@@ -1,0 +1,93 @@
+[
+  {
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true,
+    "remarks": "Ad blocking"
+  },
+  {
+    "port": "443",
+    "network": "udp",
+    "outboundTag": "block",
+    "enabled": true,
+    "remarks": "Block UDP 443 (QUIC)"
+  },
+  {
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true,
+    "remarks": "Torrent direct"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "enabled": true,
+    "remarks": "Bypass local network (IP)"
+  },
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true,
+    "remarks": "Bypass local network (domains)"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "77.88.8.8",
+      "77.88.8.1",
+      "77.88.8.88",
+      "77.88.8.2",
+      "77.88.8.7",
+      "77.88.8.3",
+      "2a02:6b8::feed:0ff",
+      "2a02:6b8:0:1::feed:0ff",
+      "2a02:6b8::feed:bad",
+      "2a02:6b8:0:1::feed:bad",
+      "2a02:6b8::feed:a11",
+      "2a02:6b8:0:1::feed:a11",
+      "193.58.251.251",
+      "83.220.169.155",
+      "212.109.195.93"
+    ],
+    "enabled": true,
+    "remarks": "Bypass Russian DNS servers"
+  },
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "domain:dns.yandex.ru",
+      "domain:dns.comss.one"
+    ],
+    "enabled": true,
+    "remarks": "Bypass Russian DNS domains"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:ru"
+    ],
+    "enabled": true,
+    "remarks": "Bypass Russian IPs"
+  },
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:category-ru"
+    ],
+    "enabled": true,
+    "remarks": "Bypass Russian domains"
+  },
+  {
+    "outboundTag": "proxy",
+    "enabled": true,
+    "remarks": "Proxy all other traffic"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "hosts": {
+    "geosite:category-ads-all": "127.0.0.1",
+    "dns.yandex.ru": "77.88.8.8",
+    "dns.google": "8.8.8.8",
+    "dns.cloudflare.com": "1.1.1.1"
+  },
+  "servers": [
+    {
+      "address": "77.88.8.8",
+      "skipFallback": true,
+      "domains": [
+        "geosite:category-ru"
+      ],
+      "expectIPs": [
+        "geoip:ru"
+      ]
+    },
+    "1.1.1.1",
+    "8.8.8.8",
+    "https://dns.cloudflare.com/dns-query",
+    "https://dns.google/dns-query"
+  ]
+}
