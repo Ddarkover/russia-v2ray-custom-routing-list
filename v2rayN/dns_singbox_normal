@@ -8,7 +8,7 @@
     },
     {
       "tag": "local",
-      "type": "tcp",
+      "type": "udp",
       "server": "77.88.8.8"
     },
     {
