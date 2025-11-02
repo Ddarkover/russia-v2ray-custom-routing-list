@@ -24,6 +24,7 @@
     "remarks": "Bypass local network (domains)"
   },
   {
+    "port": "",
     "outboundTag": "direct",
     "ip": [
       "77.88.8.8",
@@ -43,16 +44,19 @@
       "212.109.195.93"
     ],
     "enabled": true,
-    "remarks": "Bypass Russian DNS servers"
+    "remarks": "Bypass Russian DNS servers",
+    "ruleType": 0
   },
   {
+    "port": "",
     "outboundTag": "direct",
     "domain": [
-      "domain:dns.yandex.ru",
-      "domain:dns.comss.one"
+      "domain:comss.one",
+      "domain:yandex.net"
     ],
     "enabled": true,
-    "remarks": "Bypass Russian DNS domains"
+    "remarks": "Bypass Russian DNS domains",
+    "ruleType": 0
   },
   {
     "outboundTag": "direct",
@@ -71,6 +75,7 @@
     "remarks": "Bypass Russian domains"
   },
   {
+    "port": "0-65535",
     "outboundTag": "proxy",
     "enabled": true,
     "remarks": "Proxy all other traffic"
